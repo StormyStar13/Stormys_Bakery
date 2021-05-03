@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "stormysbakery",
+  "version": "${version}",
+
+  "name": "Stormy's Bakery",
+  "description": "Adds bakery items to Minecraft :)",
+  "authors": [
+    "StormyStar13"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "apache-2.0",
+  "icon": "assets/stormysbakery/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.stormystar13.stormys.bakery.StormysBakery"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
